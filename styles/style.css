@@ -1,0 +1,296 @@
+/* universal Selector Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* Universal Selector End */
+
+
+
+/* Multiple Styles Start*/
+.btn-primary{
+   background-color: #F15B22;
+   /* padding: 18px 35px; */
+   height: 64px;
+   width: 160px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 32px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #ffffff;
+   cursor: pointer;
+}
+.btn-secondary{
+    /* padding: 18px 35px; */
+    font-size: 20px;
+    font-weight: 600;
+    height: 64px;
+    width: 160px;
+    background: #FFFFFF;
+    color: #F15B22;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+/* Multiple Styles End*/
+
+
+/* Header Section Styles  Start*/
+
+.header-banner{
+    background-image: url(../images/banner/banner2.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header-banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+   padding-right: 230px;
+   text-align: end;
+
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #151414;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+/* Header Section Styles  End*/
+
+
+
+/* My failures of previous year  section style Start*/
+
+.previous-year-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 120px;
+    gap: 80px;
+}
+.failures-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
+    padding-right: 70px;
+
+}
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: #444343;
+    padding-right: 65px; 
+    margin-bottom: 16px;
+}
+.failure-list-items li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 8px 0;
+}
+.failure-list-items .list-item{
+    color: #16D887;
+    font-size: 16px;
+    margin-right: 10px;
+}
+/* My failures of previous year  section style End*/
+
+
+
+
+/* My Plan Section Style Start*/
+
+.my-plan-section{
+    margin: 130px 120px;
+}
+.my-plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;;
+    margin-bottom: 50px;
+}
+.plan-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.plan-item{
+    display: block;
+    text-align: center;
+}
+.plan-item>h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 24px 0 16px 0;
+}
+.plan-item>p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* My Plan Section Style End*/
+
+
+
+/* Call Now Section Style Start*/
+
+.call-now-section{
+    margin: 0px 130px 130px;
+    background-image:
+    linear-gradient(90deg, #F15B22 0%,rgba(241, 91, 34, 0) 100%),
+    url('../images/watch.png');
+    width: 1090px;
+    height: 300px;
+    border-radius: 5px;
+}
+.call-now-section div{
+    padding: 60px;
+    
+
+}
+.call-now-title{
+    width: 460px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+/* Call Now Section Style End*/
+
+
+
+
+/* Contact Me section styles start*/
+
+.contact-me-section{
+    margin: 130px;
+    background-color: #dbdbe2;
+    border-radius: 5px;
+}
+.contact-me-title{
+    font-size: 45px;
+    color: #151414;
+    text-align: center;
+    padding: 40px 0 8px 0;
+}
+.contact-me-description{
+    font-size: 18px;
+    color: #444343;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.contact-me-section .contact-me-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me-form input{
+   width: 500px;
+   border: none;
+   border-bottom: 1px solid black;
+   background: transparent;
+   margin: 20px 0;
+   font-size: 18px;
+   color: #444343;
+   /* text-align: center; */
+
+}
+.contact-me-form input:focus{
+    outline: none;
+}
+.contact-me-form>.btn-primary{
+    margin-bottom: 50px;
+}
+/* Contact Me section styles End*/
+
+
+
+
+/* footer section styles Start*/
+
+.footer-section{
+    background-color: #151414;
+    padding: 130px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.future-item-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.future-item-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    width: 455px;
+    height: 70px;
+    margin-bottom: 24px;
+}
+.future-item-email, .future-item-phone{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.future-item-social-link> img{
+   margin-right: 17px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.subscription-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+}
+.subscription-input{
+    padding: 20px 40px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.subscription-input:focus{
+    outline: none;
+}
+
+/* footer section styles End*/
